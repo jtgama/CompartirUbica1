@@ -46,6 +46,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="facebookIntent"
                 android:src="@drawable/ic_face1"
+
+
                 app:fab_colorNormal="@color/faceColor"
                 app:fab_label="Facebook">
 
