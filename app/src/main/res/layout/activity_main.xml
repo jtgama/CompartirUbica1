@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,8 +15,8 @@
             android:id="@+id/menuFlotante"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:menu_icon="@drawable/sharee"
-            app:menu_backgroundColor="@color/faceColor"
+            app:menu_icon="@drawable/ic_share"
+            app:menu_colorNormal="@color/faceColor"
             app:menu_labels_position="right"
             app:menu_fab_label="Compartir Tracking">
 
@@ -26,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="compartir"
-                android:src="@drawable/ic_compa"
+                android:src="@drawable/ic_otro1"
                 app:fab_colorNormal="@color/compartirColor"
                 app:fab_label="Otros">
 
@@ -35,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="twitter"
-                android:src="@drawable/ic_twt"
+                android:src="@drawable/ic_twit"
                 app:fab_colorNormal="@color/twitterColor"
                 app:fab_label="Twitter">
 
@@ -44,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="facebookIntent"
-                android:src="@drawable/ic_fa"
+                android:src="@drawable/ic_face1"
                 app:fab_colorNormal="@color/faceColor"
                 app:fab_label="Facebook">
 
@@ -53,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="messeger"
-                android:src="@drawable/ic_tmesee"
+                android:src="@drawable/ic_famess"
                 app:fab_colorNormal="@color/faceColor"
                 app:fab_label="Messenger">
 
@@ -62,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="whatsappIntent"
-                android:src="@drawable/ic_whatsapp"
+                android:src="@drawable/ic_twhap"
                 app:fab_colorNormal="@color/whatsappColor"
                 app:fab_label="Whatsapp">
 
